@@ -11,7 +11,7 @@ javax.crypto.Cipher 클래스를 사용하여 AES RSA 암호화 하기
 암호화에 사용할 키와 문자열 설정
 ```java
         // 암호화에 사용할 키, 디폴트 128bit(16Byte)로 설정해야함
-        String encryptionKey = "encryptionkey!!!";
+        String encryptionKey = "AESencryptionkey";
 
         // 암호화할 문자열
         String target = "AES 암호화를 해보아요";
