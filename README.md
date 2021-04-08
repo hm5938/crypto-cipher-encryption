@@ -32,7 +32,6 @@ AES 암호화
 
             // 암호화 완료
             byte[] encryptBytes = cipher.doFinal(target.getBytes("UTF-8"));
-            System.out.println(new String(encryptBytes)); // => 똑같은 암호화키로 복호화
 ```
 
  AES 복호화
@@ -74,7 +73,6 @@ AES 암호화
 
             // 암호화 완료
             byte[] encryptBytes = cipher.doFinal(target.getBytes());
-            System.out.println(new String(encryptBytes)); // => 암호화되어 읽지못함
 ```
 
  RSA 복호화
